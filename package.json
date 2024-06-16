@@ -4,11 +4,13 @@
   "license": "MIT",
   "scripts": {
     "nx": "nx",
-    "minime:api:stub": "nx serve stubs-api"
+    "minime:api:stub": "nx serve stubs-api",
+    "minime:dev:stub": "env-cmd -f apps/minime/.stub.env nx run minime:dev"
   },
   "private": true,
   "dependencies": {
     "axios": "^1.6.0",
+    "env-cmd": "^10.1.0",
     "express": "^4.18.1",
     "morgan": "^1.10.0",
     "next": "14.2.3",
