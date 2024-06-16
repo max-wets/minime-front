@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@minime-front/models": ["libs/minime/models/src/index.ts"],
+      "@minime-front/shared-stubs-utils": [
+        "libs/stubs/stubs-utils/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

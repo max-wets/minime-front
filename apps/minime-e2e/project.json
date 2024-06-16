@@ -1,0 +1,9 @@
+{
+  "name": "minime-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/minime-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["minime"],
+  "// targets": "to see all targets run: nx show project minime-e2e --web",
+  "targets": {}
+}

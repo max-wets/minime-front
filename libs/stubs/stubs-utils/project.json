@@ -1,0 +1,19 @@
+{
+  "name": "shared-stubs-utils",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/stubs/stubs-utils/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/stubs/stubs-utils",
+        "main": "libs/stubs/stubs-utils/src/index.ts",
+        "tsConfig": "libs/stubs/stubs-utils/tsconfig.lib.json",
+        "assets": ["libs/stubs/stubs-utils/*.md"]
+      }
+    }
+  }
+}
