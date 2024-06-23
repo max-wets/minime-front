@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react';
-import { BaseTheme, color, font, theme } from './theme';
+import { BaseTheme, color, theme } from './theme';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import React = require('react');
 
@@ -11,8 +11,9 @@ const GlobalStyle = createGlobalStyle`
     body {
         font-size: 1.4rem;
         line-height: 1.32;
-        background: ${color('background.color')}
-        color: ${color('font.color')}
+        background: ${color('background.color')};
+        color: ${color('font.color')};
+        margin: 0;
     }
 
     * {
