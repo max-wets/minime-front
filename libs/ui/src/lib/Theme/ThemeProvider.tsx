@@ -8,6 +8,10 @@ export interface MinimeThemeProps {
 }
 
 const GlobalStyle = createGlobalStyle`
+    html {
+      font-size: 62.5%;
+    }
+
     body {
         font-size: 1.4rem;
         line-height: 1.32;
